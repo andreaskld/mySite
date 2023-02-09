@@ -166,6 +166,7 @@ header{
     grid-row-end: 1;
     margin: 0px;
     padding: 10px;
+    font-size: small;
   }
   .email{
     display: flex;
