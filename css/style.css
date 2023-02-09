@@ -1,0 +1,101 @@
+/*///////////////////////////////////FONTS////////////////////////////////////*/
+
+/*font-family: 'Comfortaa', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Jost:ital,wght@1,700&display=swap');
+
+/*///////////////////////////////////SECTIONS////////////////////////////////////*/
+
+.top
+{
+    background-color: rgb(58, 58, 58);
+}
+
+body{
+    background-color: rgb(58, 58, 58);
+}
+
+/*///////////////////////////////////HEADER////////////////////////////////////*/
+header{
+
+    font-family: "Arial Black", "Arial Bold",  sans-serif ;
+    font-weight:bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    color:white;
+    
+}
+
+.headerCenter{
+
+    text-align: center;
+    margin: 10px;
+  
+}
+/*///////////////////////////////////NAVIGATION////////////////////////////////////*/
+.navCenter{
+
+    position:relative;
+    overflow:hidden;
+    padding:20px;
+    border-radius: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    
+}
+
+.navLinkCenter{
+
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.navLinkLeft{
+
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  .navLinkRight{
+
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  nav
+  {
+    background-color: rgb(37, 37, 37);
+  }
+  a{
+
+    color:antiquewhite
+
+  }
+
+  /*///////////////////////////////////CONTENT////////////////////////////////////*/
+  .gridMain{
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "pos1"
+    "pos2"
+    "pos3"
+    "pos4";
+
+  }
+  .gif{
+
+    grid-area: pos1;
+  }
