@@ -296,7 +296,7 @@ header{
     padding: 10px;
     font-size: small;
   }
-  .email1{
+  .email{
     display: flex;
 
     grid-column-start: 1;
@@ -430,7 +430,7 @@ header{
 
 
 
-.email{
+.email1{
   display: flex;
 
   grid-column-start: 4;
@@ -462,6 +462,20 @@ header{
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 6;
+    text-decoration: underline;
+    text-align: center;
+
+  }
+
+  .email2
+  {
+
+    display: flex;
+
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
     text-decoration: underline;
     text-align: center;
 
