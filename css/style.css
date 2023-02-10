@@ -176,12 +176,7 @@ header{
     max-width:400px;
     max-height:95px;
 
-   /* max-width: 50%;
-    max-height: 50%;
-    margin: auto;
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;*/
+   
   }
 
   .schoolText{
@@ -207,6 +202,68 @@ header{
     padding: 5px;
   }
 
+  .spacing
+  {
+    border-radius: 30px;
+    background-color: rgb(58, 58, 58);
+
+  }
+
+
+ /*///////////////////////////////////CONTACT////////////////////////////////////*/
+
+  .feeterContactCont{
+    display: grid;
+    grid-template-rows:repeat(10, 30px);
+    grid-template-columns: repeat(10, 10fr);
+    
+
+  }
+
+  .feeterImgSize20{
+
+    width: 30px;
+    height: 30px;
+    margin:5px;
+   
+    
+  }
+
+  .feeterImgSize2{
+
+    width: auto;
+    max-height: 40px;
+    margin:5px;
+   
+    
+  }
+
+  .discord
+  {
+
+    display: inline-flex;
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-decoration: underline;
+    text-align: center;
+
+  }
+  .insta
+  {
+
+    display: inline-flex;
+
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-decoration: underline;
+    text-align: center;
+
+  }
   /*///////////////////////////////////FOOTER////////////////////////////////////*/
 
   .feeterLoc{
@@ -225,14 +282,7 @@ header{
     margin:5px;
    
   }
-  .feeterImgSize2{
 
-    width: 30px;
-    height: 30px;
-    margin:5px;
-   
-    
-  }
   .feeterContactText{
     grid-column-start: 5;
     grid-column-end: 8;
