@@ -296,7 +296,7 @@ header{
     padding: 10px;
     font-size: small;
   }
-  .email{
+  .email1{
     display: flex;
 
     grid-column-start: 1;
@@ -358,7 +358,7 @@ header{
 
     .feeterLoc{
       grid-column-start: 8;
-      grid-column-end: 11;
+      grid-column-end: 14;
       grid-row-start: 5;
       grid-row-end: 5.5;
       
@@ -443,7 +443,7 @@ header{
 
 }
 
-.feeterContactText{
+.feeterContactText1{
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 1;
