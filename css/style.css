@@ -28,6 +28,7 @@ header{
     font-weight:bolder;
     font-size: larger;
     text-transform: uppercase;
+    
     color:white;
     margin:12px;
     
@@ -36,7 +37,7 @@ header{
 .headerCenter{
 
     text-align: center;
-    margin: 10px;
+    
   
 }
 /*///////////////////////////////////NAVIGATION////////////////////////////////////*/
@@ -120,6 +121,7 @@ header{
     margin: auto; 
   }
 
+
   .aboutMeCont{
     grid-area: pos2;
     display:block;
@@ -142,6 +144,63 @@ header{
     text-align: center;
     font-size:medium;
   }
+
+ /*///////////////////////////////////WORK/EDUCATION////////////////////////////////////*/
+
+ .sectionName
+ {
+
+   text-align: center;
+   margin:2px; 
+    padding: 5px;
+
+ }
+
+  .educationCont
+  {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(122, 122, 122);
+    
+
+  }
+
+  /*make max height diff in desktop styling*/
+  .img2{
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  .schoolText{
+
+    text-align: center;
+    border-radius: 35px;
+    background-color: rgb(236, 236, 236);
+
+  }
+  .workCont
+  {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(122, 122, 122);
+    
+
+  }
+  .textPadding
+  {
+    margin:2px; 
+    padding: 5px;
+  }
+
+  /*///////////////////////////////////FOOTER////////////////////////////////////*/
 
   .feeterLoc{
     grid-area: pos4;
